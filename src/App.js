@@ -1,12 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
-import Navbar from './components/Navbar';
-import Homepage from './components/Homepage';
-import Exchanges from './components/Exchanges';
-import Cryptocurrencies from './components/Cryptocurrencies';
-import CryptoDetails from './components/CryptoDetails';
-import News from './components/News';
+import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 
 const App = () => (
   <div className="app">
