@@ -19,10 +19,10 @@ const App = () => (
             <Route exact path="/news" element={<News />} />
           </Routes>
         </div>
-      </Layout>
+        </Layout>
 
-      <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2023
+        <div className="footer">
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
           <Link to="/">
             Cryptoverse Inc.
           </Link> <br />
